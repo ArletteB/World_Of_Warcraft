@@ -1,0 +1,34 @@
+@import "abstracts/fonts";
+@import "theme/base";
+
+* {
+    margin: 0;
+}
+body {
+    font-family: $roboto;
+}
+
+// Partie Header
+header {
+    background-color: #90886D;
+    padding: 30px ;
+    nav{
+        .menu{
+            display: flex;
+            list-style: none;
+            align-items: center;
+            justify-content: flex-end;
+            width: 90%;
+            li {
+                padding-left: 25px ;
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                }
+
+            }
+        }
+    }
+    
+}

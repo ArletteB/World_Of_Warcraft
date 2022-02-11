@@ -1,0 +1,32 @@
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+* {
+  margin: 0;
+}
+
+body {
+  font-family: roboto;
+}
+
+header {
+  background-color: #90886D;
+  padding: 30px;
+}
+header nav .menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90%;
+}
+header nav .menu li {
+  padding-left: 25px;
+}
+header nav .menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

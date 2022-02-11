@@ -1,0 +1,7 @@
+@mixin btn ($bg,$color) {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    transform: translateX(-50%);
+}
