@@ -28,6 +28,10 @@ header nav .menu li a {
   color: white;
   text-decoration: none;
 }
+header nav .menu li a:hover {
+  color: black;
+  font-weight: bold;
+}
 
 #container {
   display: flex;
@@ -104,6 +108,45 @@ header nav .menu li a {
 #container .personnage .btn3:hover {
   background-color: white;
   color: purple;
+}
+
+@media screen and (max-width: 768px) {
+  header nav .menu {
+    justify-content: space-around;
+    padding: 0;
+    width: 100%;
+  }
+  header nav .menu li {
+    padding: 1rem;
+  }
+
+  #container {
+    flex-direction: column;
+  }
+  #container .personnage {
+    width: 90%;
+    margin: 2rem auto;
+  }
+  #container .personnage .text h2 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 426px) {
+  header nav .menu {
+    justify-content: space-around;
+    padding: 0;
+    width: 100%;
+    flex-direction: column;
+  }
+  header nav .menu li {
+    padding: 1rem;
+  }
+
+  .btn1, .btn2, .btn3 {
+    width: 80%;
+    text-align: center;
+    border-radius: 2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

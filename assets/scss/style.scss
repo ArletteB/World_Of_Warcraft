@@ -24,10 +24,13 @@ header {
                 a {
                     color: white;
                     text-decoration: none;
-
                 }
-
+                a:hover{
+                    color: black;
+                    font-weight: bold;
+                }
             }
+            
         }
     }
     
@@ -89,4 +92,60 @@ header {
         }
     }
 
+}
+
+
+// MEDIA QUERIES
+
+@media screen and (max-width: 768px) {
+    header {
+        nav{
+            .menu {
+                justify-content: space-around;
+                padding: 0;
+                width: 100%;
+                
+                li {
+                    padding: 1rem ;
+                    
+                }
+                
+            }
+        }
+    }
+   #container {
+       flex-direction: column;
+       .personnage{
+           width: 90%;
+           margin: 2rem auto;
+           .text{
+              h2{
+                text-align: center;
+              }
+           }
+       }
+   } 
+}
+
+@media screen and (max-width: 426px) {
+    header {
+        nav{
+            .menu {
+                justify-content: space-around;
+                padding: 0;
+                width: 100%;
+                flex-direction: column;
+                
+                li {
+                    padding: 1rem ;
+                    
+                }
+            }
+        }
+    }
+    .btn1, .btn2, .btn3 {
+        width: 80%;
+        text-align: center;
+        border-radius: 2rem;
+    }    
 }
