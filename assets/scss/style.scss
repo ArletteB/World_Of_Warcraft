@@ -40,9 +40,9 @@ header {
     .personnage {
         width: 25%;
         border: 1px solid black;
-        box-shadow: 4px 6px 6px grey;
+        box-shadow: 6px 8px 8px grey;
         margin: 2rem 1rem;
-        padding-bottom: 3rem;
+        padding-bottom: 7rem;
 
         position: relative;
 
@@ -58,7 +58,34 @@ header {
 
         .text {
             padding: 1rem;
-            
+            h2 {
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+            }    
+        }
+        .btn1 {
+            @include btn(green, white);
+            border: 3px solid green;
+        }
+        .btn1:hover {
+            background-color: white;
+            color: green;
+        }
+        .btn2 {
+            @include btn(blue, white);
+            border: 3px solid blue;
+        }
+        .btn2:hover {
+            background-color: white;
+            color: blue;
+        }
+        .btn3 {
+            @include btn(purple, white);
+            border: 3px solid purple;
+        }
+        .btn3:hover {
+            background-color: white;
+            color: purple;
         }
     }
 

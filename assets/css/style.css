@@ -36,9 +36,9 @@ header nav .menu li a {
 #container .personnage {
   width: 25%;
   border: 1px solid black;
-  box-shadow: 4px 6px 6px grey;
+  box-shadow: 6px 8px 8px grey;
   margin: 2rem 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 7rem;
   position: relative;
 }
 #container .personnage .image {
@@ -52,6 +52,58 @@ header nav .menu li a {
 }
 #container .personnage .text {
   padding: 1rem;
+}
+#container .personnage .text h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+#container .personnage .btn1 {
+  color: white;
+  background-color: green;
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 13px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid green;
+}
+#container .personnage .btn1:hover {
+  background-color: white;
+  color: green;
+}
+#container .personnage .btn2 {
+  color: white;
+  background-color: blue;
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 13px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid blue;
+}
+#container .personnage .btn2:hover {
+  background-color: white;
+  color: blue;
+}
+#container .personnage .btn3 {
+  color: white;
+  background-color: purple;
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 13px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid purple;
+}
+#container .personnage .btn3:hover {
+  background-color: white;
+  color: purple;
 }
 
 /*# sourceMappingURL=style.css.map */
